@@ -31,4 +31,3 @@ View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-th
 
 =========
 For more details, read [documentation](http://jekyllrb.com/)
->>>>>>> 43a0c0893bcfabf0d260654c67ea1813c03fdeab
