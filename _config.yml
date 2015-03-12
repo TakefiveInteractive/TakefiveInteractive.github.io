@@ -1,9 +1,9 @@
-url: https://y7kim.github.io
-baseurl: 
+url: http://www.takefiveinteractive.com
+baseurl: http://takefiveinteractive.com
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
+title: TakeFive Interactive
+email: xiaohang.yu@takefiveinteractive.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 # Color settings (hex-codes without the leading hash-tag)
@@ -14,9 +14,9 @@ color:
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Kedan Li
   pic: 1
-  position: Lead Designer
+  position: Frontend (iOS/UI/UX)
   social:
     - title: twitter
       url: #
@@ -25,9 +25,9 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Larry Parker
+- name: Yu Wang
   pic: 2
-  position: Lead Marketer
+  position: Frontend (iOS/UI/UX)
   social:
     - title: twitter
       url: #
@@ -36,9 +36,31 @@ people:
     - title: linkedin
       url: #
 
-- name: Diana Petersen
+- name: Han Yan
   pic: 3
-  position: Lead Developer
+  position: Frontend, Material Design
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+- name: Yifei Teng
+  pic: 2
+  position: Backend
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+- name: Xiaohang Yu
+  pic: 3
+  position: Backend
   social:
     - title: twitter
       url: #
@@ -49,21 +71,13 @@ people:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/TakeFiveInteractive
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: URH Wardall, 1012 W. Illinois St.
+  - line: Urbana, IL 61801
 
 # Build settings
 markdown: kramdown
