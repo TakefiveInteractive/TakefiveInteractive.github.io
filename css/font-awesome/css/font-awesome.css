@@ -1564,3 +1564,11 @@
 .fa-bomb:before {
   content: "\f1e2";
 }
+
+/*
+Customized
+*/
+
+.fa-zhihu:before{
+  content: "\f1e3";
+}
