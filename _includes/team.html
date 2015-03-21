@@ -8,8 +8,38 @@
                 </div>
             </div>
             <div class="row">
-                {% for member in site.people %}
+                {% comment %}
+                The following code splits our team member array into two. The second one has the trailing people
+                that are handled differently in layout.
+                {% endcomment %}
+                {% assign format_length = site.people | size | divided_by:3 | times:3 %}
+                {% assign format_remainder = site.people | size | minus:format_length %}
+                {% assign format_people = site.people | pop: format_remainder %}
+                {% assign format_people_last = site.people | shift: format_length %}
+                {% for member in format_people %}
                 <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
+                        <h4>{{ member.name }}</h4>
+                        <p class="text-muted">{{ member.position }}</p>
+                        <ul class="list-inline social-buttons">
+                            {% for network in member.social %}
+                            <li><a href="{{ network.url }}" target="_blank" ><i class="fa fa-{{ network.title }}"></i></a>
+                            {% endfor %}
+
+                        </ul>
+                    </div>
+                </div>
+                {% endfor %}
+                {% comment %}
+                Center the last few team members using bootstrap offset
+                {% endcomment %}
+                {% for member in format_people_last %}
+                {% if forloop.first %}
+                  <div class="col-sm-4 col-sm-offset-2">
+                {% else %}
+                  <div class="col-sm-4">
+                {% endif %}
                     <div class="team-member">
                         <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
                         <h4>{{ member.name }}</h4>
