@@ -38,11 +38,11 @@ people:
 
 - name: Suji Yan
   pic: 4
-  position: Frontend, Material Design
+  position: Frontend, Design
   social:
     - title: github
-      url: "http://github.com/Tedko"
-    - title: facebook
+      url: http://github.com/Tedko
+    - title: zhihu
       url: #
     - title: google-plus
       url: #
@@ -51,8 +51,8 @@ people:
   pic: 2
   position: Backend
   social:
-    - title: twitter
-      url: #
+    - title: github
+      url: http://github.com/tengyifei
     - title: facebook
       url: #
     - title: google-plus
