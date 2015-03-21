@@ -18,8 +18,8 @@ people:
   pic: 1
   position: Frontend (iOS/UI/UX)
   social:
-    - title: twitter
-      url: #
+    - title: github
+      url: https://github.com/likedan
     - title: facebook
       url: #
     - title: stack-overflow
@@ -29,12 +29,12 @@ people:
   pic: 5
   position: Frontend (iOS/UI/UX)
   social:
-    - title: twitter
-      url: #
+    - title: github
+      url: https://github.com/yuwang17
     - title: facebook
-      url: #
+      url: https://www.facebook.com/profile.php?id=100007201530170
     - title: linkedin
-      url: #
+      url: http://www.linkedin.com/pub/yu-wang/87/a77/947/en
 
 - name: Suji Yan
   pic: 4
@@ -57,8 +57,6 @@ people:
       url: https://thinkingandcomputing.com
     - title: linkedin
       url: https://www.linkedin.com/in/yifeiteng
-    - title: google-plus
-      url: https://plus.google.com/+YifeiTeng
 
 - name: Xiaohang Yu
   pic: 3
