@@ -53,19 +53,19 @@ people:
   social:
     - title: github
       url: https://github.com/tengyifei
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
+    - title: link
+      url: https://thinkingandcomputing.com
+    - title: linkedin
+      url: https://www.linkedin.com/in/yifeiteng
     - title: google-plus
-      url: #
+      url: https://plus.google.com/+YifeiTeng
 
 - name: Xiaohang Yu
   pic: 3
   position: Backend
   social:
-    - title: twitter
-      url: #
+    - title: github
+      url: https://github.com/lafickens
     - title: facebook
       url: #
     - title: google-plus
