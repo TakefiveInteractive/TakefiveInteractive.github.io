@@ -1572,3 +1572,9 @@ Customized
 .fa-zhihu:before{
   content: "\f1e3";
 }
+
+.fa-zhihu{
+  -webkit-transform: rotate(180deg) rotateY(180deg) translateY(0.3rem) translateX(0.1rem);
+  transform: rotate(180deg) rotateY(180deg) translateY(0.3rem) translateX(0.1rem);
+}
+}
