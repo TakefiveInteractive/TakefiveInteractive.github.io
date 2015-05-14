@@ -1,13 +1,13 @@
 ---
-title: WalkingEmpire
-subtitle: Gaming App
+title: Weather Map
+subtitle: Weather App
 layout: default
-modal-id: 1
-date: 2014-10-22
+modal-id: 3
+date: 2015-06-01
 img: dreams.png
 thumbnail: dreams-thumbnail.png
 alt: image-alt
-project-date: October 2014
+project-date: April 2014
 category: App development
 description: WalkingEmpire is a mobile game that revolutionizes how people exercise. You gain points by walking and can use them to defend and attack your favorite places.
 ---
