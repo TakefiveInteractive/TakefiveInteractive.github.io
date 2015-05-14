@@ -20,10 +20,10 @@ people:
   social:
     - title: github
       url: https://github.com/likedan
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+    - title: zhihu
+      url: http://www.zhihu.com/people/kedan-li
+    - title: linkedin
+      url: https://www.linkedin.com/in/kedanli
 
 - name: Yu Wang
   pic: 5
@@ -34,7 +34,7 @@ people:
     - title: facebook
       url: https://www.facebook.com/profile.php?id=100007201530170
     - title: linkedin
-      url: http://www.linkedin.com/pub/yu-wang/87/a77/947/en
+      url: https://www.linkedin.com/in/wangyu2165
 
 - name: Suji Yan
   pic: 4
