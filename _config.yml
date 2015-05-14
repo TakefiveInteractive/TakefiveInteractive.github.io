@@ -3,8 +3,8 @@ baseurl:
 
 # Site settings
 title: TakeFive Interactive
-email: xiaohang.yu@takefiveinteractive.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+email: xiaohang@takefiveinteractive.com
+description: "We are a group of five motivated individuals based in UIUC"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -65,9 +65,9 @@ people:
     - title: github
       url: https://github.com/lafickens
     - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+      url: https://facebook.com/lafickens
+    - title: linkedin
+      url: https://www.linkedin.com/in/yuxiaohang
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
