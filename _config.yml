@@ -16,7 +16,7 @@ color:
 people:
 - name: Kedan Li
   pic: 1
-  position: Frontend (iOS/UI/UX)
+  position: Lead iOS, Product Artisan
   social:
     - title: github
       url: https://github.com/likedan
@@ -27,7 +27,7 @@ people:
 
 - name: Yu Wang
   pic: 5
-  position: Frontend (iOS/UI/UX)
+  position: iOS Developer, UI/UX
   social:
     - title: github
       url: https://github.com/yuwang17
