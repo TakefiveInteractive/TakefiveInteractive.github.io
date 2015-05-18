@@ -6,6 +6,14 @@ title: TakeFive Interactive
 email: xiaohang@takefiveinteractive.com
 description: "We are a group of five motivated individuals based in UIUC"
 
+# Minifier settings
+jekyll-press:
+  # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
+  exclude: []
+  js_options: {}      # js minifier options
+  css_options: {}     # css minifier options
+  html_options: {}    # html minifier options
+
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: fed136
