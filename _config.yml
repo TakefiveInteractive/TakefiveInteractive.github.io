@@ -6,6 +6,9 @@ title: TakeFive Interactive
 email: xiaohang@takefiveinteractive.com
 description: "We are a group of five motivated individuals based in UIUC"
 
+# Exclude additional directories
+exclude: ['ZhihuFont/*']
+
 # Minifier settings
 jekyll-press:
   # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
