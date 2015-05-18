@@ -1,0 +1,4 @@
+.fa-zhihu {
+    transform: rotate(180deg) scaleX(-1) translateY(0.3rem) translateX(0.1rem);
+    -ms-transform: rotate(180deg) scaleX(-1) translateY(0.3rem) translateX(0.1rem);
+}
