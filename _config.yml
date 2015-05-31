@@ -26,7 +26,7 @@ color:
 # Team names, titles and social links
 people:
 - name: Kedan Li
-  pic: 1
+  pic: kedan
   position: Lead iOS, Product Artisan
   social:
     - title: github
@@ -37,7 +37,7 @@ people:
       url: https://www.linkedin.com/in/kedanli
 
 - name: Yu Wang
-  pic: 5
+  pic: yu
   position: iOS Developer, UI/UX
   social:
     - title: github
@@ -48,7 +48,7 @@ people:
       url: https://www.linkedin.com/in/wangyu2165
 
 - name: Suji Yan
-  pic: 4
+  pic: ted
   position: Frontend, Design
   social:
     - title: github
@@ -59,14 +59,14 @@ people:
       url: https://www.linkedin.com/in/tedkoyan
 
 - name: Mike Zhao
-  pic: 7
+  pic: mike
   position: iOS Developer
   social:
     - title: github
       url: https://github.com/DeRedBaron
 
 - name: Yifei Teng
-  pic: 2
+  pic: yifei
   position: Backend, DevOps
   social:
     - title: github
@@ -77,7 +77,7 @@ people:
       url: https://www.linkedin.com/in/yifeiteng
 
 - name: Xiaohang Yu
-  pic: 3
+  pic: lafickens
   position: Backend, Infrastructure, Android
   social:
     - title: github
@@ -88,7 +88,7 @@ people:
       url: https://www.linkedin.com/in/yuxiaohang
 
 - name: Zhongzhi Yu
-  pic: 6
+  pic: c4phone
   position: Backend, Android
   social:
     - title: github
