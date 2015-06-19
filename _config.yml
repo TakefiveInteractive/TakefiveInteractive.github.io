@@ -2,7 +2,7 @@ url: http://www.takefiveinteractive.com
 baseurl:
 
 # Site settings
-title: TakeFive Interactive
+title: Takefive Interactive
 email: xiaohang@takefiveinteractive.com
 description: "We are a group of five motivated individuals based in UIUC"
 
@@ -101,7 +101,7 @@ people:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: github
-    url: http://github.com/TakeFiveInteractive
+    url: http://github.com/TakefiveInteractive
 
 # Postal address (add as many lines as necessary)
 address:
