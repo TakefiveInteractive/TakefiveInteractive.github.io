@@ -10,5 +10,5 @@ alt: image-alt
 project-date: March 2015
 github: https://github.com/TakefiveInteractive/WeatherMap
 appstore: https://itunes.apple.com/us/app/weather-map-take-five-interactive/id990141529?mt=8
-description: Get to know weather conditions of entire regions at a single glance, or dive detailed information of a single city.
+description: Get to know weather conditions of entire regions at a single glance, or dive into detailed information of a single city.
 ---
