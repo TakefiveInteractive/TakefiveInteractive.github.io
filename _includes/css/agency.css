@@ -786,6 +786,7 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-content h2 {
+    display: inline-block;
     margin-bottom: 15px;
     font-size: 3em;
 }
@@ -808,6 +809,15 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-appstore-badge {
+    display: inline-block;
+}
+
+.portfolio-modal .modal-appstore-badge img {
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .portfolio-modal .close-modal {

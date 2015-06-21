@@ -14,6 +14,11 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
+                            {% if post.appstore != null %}
+                            <a class="modal-appstore-badge" href="{{ post.appstore }}">
+                                <img src="img/appstore.svg" alt="Get it on the app store">
+                            </a>
+                            {% endif %}
                             <hr class="star-primary">
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             <p>{{ post.description }}</p>
