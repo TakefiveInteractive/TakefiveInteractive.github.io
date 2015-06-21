@@ -423,6 +423,10 @@ section h3.section-subheading {
     z-index: 2;
 }
 
+#portfolio .portfolio-github-badge {
+    z-index: 3;
+}
+
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
