@@ -1,5 +1,5 @@
 ---
-title: PaperPlane
+title: Paper Plane
 subtitle: Social App
 layout: default
 modal-id: 1
