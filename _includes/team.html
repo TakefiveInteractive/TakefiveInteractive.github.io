@@ -51,9 +51,11 @@
                         <ul class="list-inline social-buttons">
                             {% for network in member.social %}
                             {% if network.title == 'email' %}
-                            {% assign network.title = 'envelope-o' %}
+                            {% assign icon_name = 'email' %}
+                            {% else %}
+                            {% assign icon_name = network.title %}
                             {% endif %}
-                            <li><a href="{{ network.url }}" target="_blank" ><i class="fa fa-{{ network.title }}"></i></a>
+                            <li><a href="{{ network.url }}" target="_blank" ><i class="fa fa-{{ icon_name }}"></i></a>
                             {% endfor %}
 
                         </ul>
