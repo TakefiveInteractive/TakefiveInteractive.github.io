@@ -2,12 +2,13 @@
 title: Weather Map
 subtitle: Weather App
 layout: default
-modal-id: 3
-date: 2015-06-01
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+modal-id: 2
+date: 2015-03-01
+img: weather.png
+thumbnail: weather-thumbnail.png
 alt: image-alt
-project-date: April 2014
-category: App development
-description: WalkingEmpire is a mobile game that revolutionizes how people exercise. You gain points by walking and can use them to defend and attack your favorite places.
+project-date: March 2015
+github: https://github.com/TakefiveInteractive/WeatherMap
+appstore: https://itunes.apple.com/us/app/weather-map-take-five-interactive/id990141529?mt=8
+description: Get to know weather conditions of entire regions at a single glance, or dive into detailed information of a single city.
 ---

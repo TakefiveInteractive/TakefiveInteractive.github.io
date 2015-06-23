@@ -1,7 +1,7 @@
-TakeFiveInteractive.github.io
+TakefiveInteractive.github.io
 ====================
 
-TakeFive organization page
+Takefive organization page
 
 # Theme
 Agency theme based on [Agency bootstrap theme ](http://startbootstrap.com/templates/agency/)

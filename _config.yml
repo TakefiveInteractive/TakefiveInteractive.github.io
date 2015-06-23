@@ -2,7 +2,7 @@ url: http://www.takefiveinteractive.com
 baseurl:
 
 # Site settings
-title: TakeFive Interactive
+title: Takefive Interactive
 email: xiaohang@takefiveinteractive.com
 description: "We are a group of five motivated individuals based in UIUC"
 
@@ -26,9 +26,11 @@ color:
 # Team names, titles and social links
 people:
 - name: Kedan Li
-  pic: 1
+  pic: kedan
   position: Lead iOS, Product Artisan
   social:
+    - title: email
+      url: kedan@takefiveinteractive.com
     - title: github
       url: https://github.com/likedan
     - title: zhihu
@@ -37,9 +39,11 @@ people:
       url: https://www.linkedin.com/in/kedanli
 
 - name: Yu Wang
-  pic: 5
+  pic: yu
   position: iOS Developer, UI/UX
   social:
+    - title: email
+      url: yu@takefiveinteractive.com
     - title: github
       url: https://github.com/yuwang17
     - title: facebook
@@ -48,9 +52,11 @@ people:
       url: https://www.linkedin.com/in/wangyu2165
 
 - name: Suji Yan
-  pic: 4
+  pic: ted
   position: Frontend, Design
   social:
+    - title: email
+      url: ted@takefiveinteractive.com
     - title: github
       url: http://github.com/Tedko
     - title: zhihu
@@ -59,16 +65,18 @@ people:
       url: https://www.linkedin.com/in/tedkoyan
 
 - name: Mike Zhao
-  pic: 7
+  pic: mike
   position: iOS Developer
   social:
     - title: github
       url: https://github.com/DeRedBaron
 
 - name: Yifei Teng
-  pic: 2
+  pic: yifei
   position: Backend, DevOps
   social:
+    - title: email
+      url: teng@takefiveinteractive.com
     - title: github
       url: https://github.com/tengyifei
     - title: link
@@ -77,20 +85,24 @@ people:
       url: https://www.linkedin.com/in/yifeiteng
 
 - name: Xiaohang Yu
-  pic: 3
+  pic: lafickens
   position: Backend, Infrastructure, Android
   social:
+    - title: email
+      url: xiaohang@takefiveinteractive.com
     - title: github
       url: https://github.com/lafickens
-    - title: facebook
-      url: https://facebook.com/lafickens
+    - title: zhihu
+      url: http://www.zhihu.com/people/li-yang-82-8
     - title: linkedin
       url: https://www.linkedin.com/in/yuxiaohang
 
 - name: Zhongzhi Yu
-  pic: 6
+  pic: c4phone
   position: Backend, Android
   social:
+    - title: email
+      url: c4phone@takefiveinteractive.com
     - title: github
       url: https://github.com/C4Phone
     - title: link
@@ -101,12 +113,12 @@ people:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: github
-    url: http://github.com/TakeFiveInteractive
+    url: http://github.com/TakefiveInteractive
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: URH Wardall, 1012 W. Illinois St.
-  - line: Urbana, IL 61801
+  - line: 301 E. Healey St.
+  - line: Champaign, IL 61820
 
 # Build settings
 markdown: kramdown

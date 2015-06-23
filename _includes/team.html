@@ -34,9 +34,15 @@
                 {% comment %}
                 Center the last few team members using bootstrap offset
                 {% endcomment %}
+                {% if format_people_last.size == 1 %}
+                  <div class="col-sm-4">
+                {% assign column_offset = 'col-sm-offset-2' %}
+                {% else %}
+                {% assign column_offset = '' %}
+                {% endif %}
                 {% for member in format_people_last %}
                 {% if forloop.first %}
-                  <div class="col-sm-4 col-sm-offset-2">
+                  <div class="col-sm-4 {{ column_offset }}">
                 {% else %}
                   <div class="col-sm-4">
                 {% endif %}
@@ -56,7 +62,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                    <p class="large text-muted">We are a closely-knit team always eager to learn from each other. In the meantime we welcome anyone interested to join us. Simply shoot one of the members an e-mail and we'll talk!</p>
                 </div>
             </div>
         </div>

@@ -10,6 +10,16 @@
             <div class="row">
             {% for post in site.posts %}
                 <div class="col-md-6 col-sm-8 portfolio-item">
+                    {% if post.github != null %}
+                    <!-- Optional "Fork me on GitHub" badge -->
+                    <div class="portfolio-link portfolio-github-badge">
+                        <div class="github-fork-ribbon-wrapper right">
+                            <div class="github-fork-ribbon">
+                                <a href="{{ post.github }}">Fork me on GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
                     <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
