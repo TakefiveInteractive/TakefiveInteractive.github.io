@@ -34,15 +34,13 @@
                 {% comment %}
                 Center the last few team members using bootstrap offset
                 {% endcomment %}
-                {% if format_people_last.size == 1 %}
-                  <div class="col-sm-4"></div>
-                {% assign column_offset = 'col-sm-offset-2' %}
-                {% else %}
-                {% assign column_offset = '' %}
-                {% endif %}
                 {% for member in format_people_last %}
                 {% if forloop.first %}
-                  <div class="col-sm-4 col-sm-offset-2">
+                {% if format_people_last | size == 1 %}
+                  <div class="col-sm-4"></div>
+                {% else %}
+                  <div class="col-sm-4 {{ column_offset }}">
+                {% endif %}
                 {% else %}
                   <div class="col-sm-4">
                 {% endif %}
@@ -52,6 +50,8 @@
                         <p class="text-muted">{{ member.position }}</p>
                         <ul class="list-inline social-buttons">
                             {% for network in member.social %}
+                            {% if network.title == 'email' %}
+                            {% assign network.title = 'envelope-o' %}
                             <li><a href="{{ network.url }}" target="_blank" ><i class="fa fa-{{ network.title }}"></i></a>
                             {% endfor %}
 
