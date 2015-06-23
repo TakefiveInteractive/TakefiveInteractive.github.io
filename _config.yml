@@ -43,7 +43,7 @@ people:
   position: iOS Developer, UI/UX
   social:
     - title: email
-      url: yu@takefiveinteractive.com
+      url: mailto:yu@takefiveinteractive.com
     - title: github
       url: https://github.com/yuwang17
     - title: facebook
@@ -56,7 +56,7 @@ people:
   position: Frontend, Design
   social:
     - title: email
-      url: ted@takefiveinteractive.com
+      url: mailto:ted@takefiveinteractive.com
     - title: github
       url: http://github.com/Tedko
     - title: zhihu
@@ -76,7 +76,7 @@ people:
   position: Backend, DevOps
   social:
     - title: email
-      url: teng@takefiveinteractive.com
+      url: mailto:teng@takefiveinteractive.com
     - title: github
       url: https://github.com/tengyifei
     - title: link
@@ -89,7 +89,7 @@ people:
   position: Backend, Infrastructure, Android
   social:
     - title: email
-      url: xiaohang@takefiveinteractive.com
+      url: mailto:xiaohang@takefiveinteractive.com
     - title: github
       url: https://github.com/lafickens
     - title: zhihu
@@ -102,7 +102,7 @@ people:
   position: Backend, Android
   social:
     - title: email
-      url: c4phone@takefiveinteractive.com
+      url: mailto:c4phone@takefiveinteractive.com
     - title: github
       url: https://github.com/C4Phone
     - title: link
