@@ -52,6 +52,7 @@
                             {% for network in member.social %}
                             {% if network.title == 'email' %}
                             {% assign network.title = 'envelope-o' %}
+                            {% endif %}
                             <li><a href="{{ network.url }}" target="_blank" ><i class="fa fa-{{ network.title }}"></i></a>
                             {% endfor %}
 
