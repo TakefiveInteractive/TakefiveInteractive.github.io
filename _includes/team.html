@@ -18,52 +18,24 @@
                 {% assign format_people_last = site.people | shift: format_length %}
                 {% for member in format_people %}
                 <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
-                        <h4>{{ member.name }}</h4>
-                        <p class="text-muted">{{ member.position }}</p>
-                        <ul class="list-inline social-buttons">
-                            {% for network in member.social %}
-                            {% if network.title == 'email' %}
-                            {% assign icon_name = 'envelope-o' %}
-                            {% else %}
-                            {% assign icon_name = network.title %}
-                            {% endif %}
-                            <li><a href="{{ network.url }}" target="_blank" ><i class="fa fa-{{ icon_name }}"></i></a>
-                            {% endfor %}
-
-                        </ul>
-                    </div>
+                    {% include member.html member = member %}
                 </div>
                 {% endfor %}
                 {% comment %}
                 Center the last few team members using bootstrap offset
                 {% endcomment %}
                 {% for member in format_people_last %}
-                {% if forloop.first %}
-                {% if format_people_last | size == 1 %}
-                  <div class="col-sm-12">
-                {% else %}
-                  <div class="col-sm-4 col-sm-offset-2">
-                {% endif %}
-                {% else %}
-                  <div class="col-sm-4">
-                {% endif %}
-                    <div class="team-member">
-                        <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
-                        <h4>{{ member.name }}</h4>
-                        <p class="text-muted">{{ member.position }}</p>
-                        <ul class="list-inline social-buttons">
-                            {% for network in member.social %}
-                            {% if network.title == 'email' %}
-                            {% assign icon_name = 'envelope-o' %}
-                            {% else %}
-                            {% assign icon_name = network.title %}
-                            {% endif %}
-                            <li><a href="{{ network.url }}" target="_blank" ><i class="fa fa-{{ icon_name }}"></i></a>
-                            {% endfor %}
-                        </ul>
-                    </div>
+                    {% if forloop.first %}
+                        {% assign last_row_size = format_people_last | size %}
+                        {% if last_row_size == 1 %}
+                <div class="col-sm-12">
+                        {% else %}
+                <div class="col-sm-4 col-sm-offset-2">
+                        {% endif %}
+                    {% else %}
+                <div class="col-sm-4">
+                    {% endif %}
+                    {% include member.html member = member %}
                 </div>
                 {% endfor %}
             </div>
