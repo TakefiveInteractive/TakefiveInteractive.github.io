@@ -42,7 +42,7 @@
                 {% for member in format_people_last %}
                 {% if forloop.first %}
                 {% if format_people_last | size == 1 %}
-                  <div class="col-sm-4"></div>
+                  <div class="col-sm-12">
                 {% else %}
                   <div class="col-sm-4 col-sm-offset-2">
                 {% endif %}
@@ -62,7 +62,6 @@
                             {% endif %}
                             <li><a href="{{ network.url }}" target="_blank" ><i class="fa fa-{{ icon_name }}"></i></a>
                             {% endfor %}
-
                         </ul>
                     </div>
                 </div>
