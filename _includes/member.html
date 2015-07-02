@@ -1,0 +1,16 @@
+{% assign member = include.member %}
+<div class="team-member">
+    <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
+    <h4>{{ member.name }}</h4>
+    <p class="text-muted">{{ member.position }}</p>
+    <ul class="list-inline social-buttons">
+        {% for network in member.social %}
+            {% if network.title == 'email' %}
+                {% assign icon_name = 'envelope-o' %}
+            {% else %}
+                {% assign icon_name = network.title %}
+            {% endif %}
+        <li><a href="{{ network.url }}" target="_blank" ><i class="fa fa-{{ icon_name }}"></i></a>
+        {% endfor %}
+    </ul>
+</div>
