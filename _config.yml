@@ -110,6 +110,19 @@ people:
     - title: google-plus
       url: https://plus.google.com/101206478784989285519/posts
 
+- name: Hong Lin
+  pic: hong
+  position: Backend, Frontend
+  social:
+    - title: email
+      url: mailto:plantvsbird@gmail.com
+    - title: github
+      url: https://github.com/plantvsbirds
+    - title: linkedin
+      url: https://www.linkedin.com/in/hongmidlin
+    - title: link
+      url: http://me.hl0.co
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: github
