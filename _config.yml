@@ -123,6 +123,17 @@ people:
     - title: link
       url: http://me.hl0.co
 
+- name: Ziyao Wang
+  pic: ziyao
+  position: Design
+  social:
+    - title: email
+      url: mailto:tonywangziyao@gmail.com
+    - title: github
+      url: https://github.com/Ramonywangziyao
+    - title: linkedin
+      url: https://www.linkedin.com/in/ziyao-wang-b34a73107
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: github
