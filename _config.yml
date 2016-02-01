@@ -75,12 +75,12 @@ people:
   pic: yifei
   position: Backend, DevOps
   social:
-    - title: email
-      url: mailto:teng@takefiveinteractive.com
     - title: github
       url: https://github.com/tengyifei
     - title: link
       url: https://thinkingandcomputing.com
+    - title: zhihu
+      url: https://www.zhihu.com/people/yifei.teng
     - title: linkedin
       url: https://www.linkedin.com/in/yifeiteng
 
