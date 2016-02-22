@@ -12,12 +12,12 @@
                 The following code splits our team member array into two. The second one has the trailing people
                 that are handled differently in layout.
                 {% endcomment %}
-                {% assign format_length = site.people | size | divided_by:3 | times:3 %}
+                {% assign format_length = site.people | size | divided_by:4 | times:4 %}
                 {% assign format_remainder = site.people | size | minus:format_length %}
                 {% assign format_people = site.people | pop: format_remainder %}
                 {% assign format_people_last = site.people | shift: format_length %}
                 {% for member in format_people %}
-                <div class="col-sm-4">
+                <div class="col-sm-3">
                     {% include member.html member = member %}
                 </div>
                 {% endfor %}
@@ -29,11 +29,15 @@
                         {% assign last_row_size = format_people_last | size %}
                         {% if last_row_size == 1 %}
                 <div class="col-sm-12">
-                        {% else %}
-                <div class="col-sm-4 col-sm-offset-2">
+                        {% endif %}
+                        {% if last_row_size == 2 %}
+                <div class="col-sm-6">
+                        {% endif %}
+                        {% if last_row_size == 3 %}
+                <div class="col-sm-4">
                         {% endif %}
                     {% else %}
-                <div class="col-sm-4">
+                <div class="col-sm-3">
                     {% endif %}
                     {% include member.html member = member %}
                 </div>
