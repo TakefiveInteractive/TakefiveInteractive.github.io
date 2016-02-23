@@ -134,6 +134,26 @@ people:
     - title: linkedin
       url: https://www.linkedin.com/in/ziyao-wang-b34a73107
 
+- name: Sida Li
+  pic: sida
+  position: Computer Vision, Backend
+  social:
+    - title: email
+      url: mailto:davidli43@hotmail.com
+    - title: github
+      url: https://github.com/davidli43
+    - title: linkedin
+      url: https://www.linkedin.com/in/sida-li-64427958
+
+- name: Yilin Ma
+  pic: yilin
+  position: Audio Expert, Frontend
+  social:
+    - title: facebook
+      url: https://www.facebook.com/John.Ma.Yilin
+    - title: github
+      url: https://github.com/Arivval
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: github
