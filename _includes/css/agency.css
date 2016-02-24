@@ -429,7 +429,7 @@ section h3.section-subheading {
 }
 
 
-@media(max-width:600px) {
+@media(max-width:775px) {
     #portfolio .portfolio-item {
         overflow:hidden;
         background-color: #fff;
@@ -668,7 +668,7 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
-@media(max-width:600px) {
+@media(max-width:775px) {
     .team-member {
         margin-bottom: 10vh;
         margin-top: 10vh;
