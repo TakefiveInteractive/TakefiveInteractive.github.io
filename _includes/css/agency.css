@@ -797,10 +797,10 @@ ul.social-buttons li a {
 
 @media(min-width:992px) {
     ul.social-buttons li a {
-        width: 20px;
-        height: 20px;
-        font-size: 10px;
-        line-height: 20px;
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+        line-height: 30px;
     }
 }
 
