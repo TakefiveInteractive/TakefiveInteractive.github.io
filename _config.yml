@@ -64,13 +64,6 @@ people:
     - title: linkedin
       url: https://www.linkedin.com/in/tedkoyan
 
-- name: Mike Zhao
-  pic: mike
-  position: iOS Developer
-  social:
-    - title: github
-      url: https://github.com/DeRedBaron
-
 - name: Yifei Teng
   pic: yifei
   position: Backend, DevOps
