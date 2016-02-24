@@ -8,43 +8,20 @@
                 </div>
             </div>
             <div class="row">
-                {% comment %}
-                The following code splits our team member array into two. The second one has the trailing people
-                that are handled differently in layout.
-                {% endcomment %}
-                {% assign format_length = site.people | size | divided_by:4 | times:4 %}
-                {% assign format_remainder = site.people | size | minus:format_length %}
-                {% assign format_people = site.people | pop: format_remainder %}
-                {% assign format_people_last = site.people | shift: format_length %}
-                {% for member in format_people %}
-                <div class="col-sm-3">
+                <div class="col-lg-8 col-lg-push-2 col-md-10 col-md-push-1">
+                {% assign currentRow = 1 %}
+                {% for member in site.people %}
+                    {% cycle 'add rows': '<div class="row">', nil, nil, nil %}
+                <div class="col-md-3 col-sm-6 col-xs-12 col-lg-3">
                     {% include member.html member = member %}
                 </div>
+                    {% cycle 'close rows': nil, nil, nil, '</div>' %}
                 {% endfor %}
-                {% comment %}
-                Center the last few team members using bootstrap offset
-                {% endcomment %}
-                {% for member in format_people_last %}
-                    {% if forloop.first %}
-                        {% assign last_row_size = format_people_last | size %}
-                        {% if last_row_size == 1 %}
-                <div class="col-sm-12">
-                        {% endif %}
-                        {% if last_row_size == 2 %}
-                <div class="col-sm-6">
-                        {% endif %}
-                        {% if last_row_size == 3 %}
-                <div class="col-sm-4">
-                        {% endif %}
-                    {% else %}
-                <div class="col-sm-3">
-                    {% endif %}
-                    {% include member.html member = member %}
+                    {% cycle 'close rows': nil, '</div>', '</div>', '</div>' %}
                 </div>
-                {% endfor %}
             </div>
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
+                <div class="col-lg-8 col-lg-offset-2 text-center" style="margin-top:10vh;">
                     <p class="large text-muted">We are a closely-knit team always eager to learn from each other. In the meantime we welcome anyone interested to join us. Simply shoot one of the members an e-mail and we'll talk!</p>
                 </div>
             </div>
