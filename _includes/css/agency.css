@@ -667,6 +667,7 @@ section h3.section-subheading {
 
 .team-member p {
     margin-top: 0;
+    height: 3em;
 }
 
 @media(max-width:775px) {
