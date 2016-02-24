@@ -516,6 +516,7 @@ section h3.section-subheading {
     text-align: center;
     color: #fff;
     background-color: #{{ site.color.primary }};
+    pointer-events: none;
 }
 
 .timeline>li .timeline-image h4 {
@@ -657,6 +658,7 @@ section h3.section-subheading {
 .team-member img {
     margin: 0 auto;
     border: 8px solid #f7f7f7;
+    pointer-events: none;
 }
 
 .team-member h4 {
