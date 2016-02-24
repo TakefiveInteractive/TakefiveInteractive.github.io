@@ -5,11 +5,14 @@
     <p class="text-muted">{{ member.position }}</p>
     <ul class="list-inline social-buttons">
         {% for network in member.social %}
-            {% if network.title == 'email' %}
+            {% case network.title %}
+            {% when 'email' %}
                 {% assign icon_name = 'envelope-o' %}
+            {% when 'github' %}
+                {% assign icon_name = 'github-alt' %}
             {% else %}
                 {% assign icon_name = network.title %}
-            {% endif %}
+            {% endcase %}
         <li><a href="{{ network.url }}" target="_blank" ><i class="fa fa-{{ icon_name }}"></i></a>
         {% endfor %}
     </ul>

@@ -1512,6 +1512,6 @@ Customized
 }
 
 .fa-zhihu{
-  -webkit-transform: rotateX(180deg) translateY(0.0rem) translateX(0.1rem);
-  transform: rotateX(180deg) translateY(0.0rem) translateX(0.1rem);
+  -webkit-transform: rotateX(180deg) translateY(0.25rem) translateX(0.1rem);
+  transform: rotateX(180deg) translateY(0.25rem) translateX(0.1rem);
 }
