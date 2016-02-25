@@ -133,6 +133,8 @@ people:
   social:
     - title: email
       url: mailto:davidli43@hotmail.com
+    - title: link
+      url: http://sida.li
     - title: github
       url: https://github.com/davidli43
     - title: linkedin
