@@ -367,8 +367,10 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: rgba(254,209,54,.9); /* Fallback when no plugin support */
+    background: rgba(254,209,54,.9);
+    /*
     background: rgba({{ site.color.primary | hex_to_rgb | join: ',' }}, .9);
+    */
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -516,6 +518,7 @@ section h3.section-subheading {
     text-align: center;
     color: #fff;
     background-color: #{{ site.color.primary }};
+    pointer-events: none;
 }
 
 .timeline>li .timeline-image h4 {
@@ -657,6 +660,7 @@ section h3.section-subheading {
 .team-member img {
     margin: 0 auto;
     border: 8px solid #f7f7f7;
+    pointer-events: none;
 }
 
 .team-member h4 {

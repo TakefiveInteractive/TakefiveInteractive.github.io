@@ -10,7 +10,7 @@
             <div class="row">
             {% for post in site.posts %}
                 <div class="col-md-3 col-sm-6 portfolio-item">
-                    {% if post.github != null %}
+                    {% if post.github %}
                     <!-- Optional "Fork me on GitHub" badge -->
                     <div class="portfolio-link portfolio-github-badge">
                         <div class="github-fork-ribbon-wrapper right">
@@ -23,7 +23,7 @@
                     <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
-                                <i class="fa fa-star fa-3x"></i>
+                                <i class="fa fa-info fa-3x"></i>
                             </div>
                         </div>
                         <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive" alt="">
