@@ -449,6 +449,10 @@ section h3.section-subheading {
       right:0px;
       text-align: right;
     }
+    #portfolio .portfolio-item .portfolio-caption {
+        max-width: 40%;
+        padding: 15px;
+    }
 }
 
 .timeline {

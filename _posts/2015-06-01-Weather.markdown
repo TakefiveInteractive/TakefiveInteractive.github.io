@@ -1,6 +1,6 @@
 ---
 title: Weather Map
-subtitle: Weather App
+subtitle: Perfect for road trips. Touch the weather nearby.
 layout: default
 modal-id: 2
 date: 2015-03-01

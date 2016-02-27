@@ -7,8 +7,8 @@
                     <h3 class="section-subheading text-muted">Our past and ongoing projects.</h3>
                 </div>
             </div>
-            <div class="row">
             {% for post in site.posts %}
+            {% cycle 'add rows': '<div class="row">', nil, nil, nil, '<div class="row">' %}
                 <div class="col-md-3 col-sm-6 portfolio-item">
                     {% if post.github %}
                     <!-- Optional "Fork me on GitHub" badge -->
@@ -33,7 +33,10 @@
                         <p class="text-muted">{{ post.subtitle }}</p>
                     </div>
                 </div>
+            {% cycle 'close rows': nil, nil, nil, '</div>', nil %}
             {% endfor %}
+            {% capture modulo %}{{ site.posts.size | mod:4 }}{% endcapture %}
+            {% if modulo == '2' %}</div>{% endif %}
             </div>
         </div>
     </section>
