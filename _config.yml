@@ -4,7 +4,7 @@ baseurl:
 # Site settings
 title: Takefive Interactive
 email: xiaohang@takefiveinteractive.com
-description: "We are a group of five motivated individuals based in UIUC"
+description: "We are a group of motivated individuals based in UIUC"
 
 # Exclude additional directories
 exclude: ['ZhihuFont/*']
