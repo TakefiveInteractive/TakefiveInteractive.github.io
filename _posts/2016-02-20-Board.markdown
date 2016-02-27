@@ -4,10 +4,10 @@ subtitle: Splitting your bills has never been easier.
 layout: default
 modal-id: 5
 date: 2016-02-20
-img: board.png
-thumbnail: board-thumbnail.png
+img: board.gif
+thumbnail: board-thumbnail.jpg
 alt: image-alt
 project-date: February 2016
 github: https://github.com/TakefiveInteractive/Board
-description: Bla bla bla
+description: We are often in situations where it's so difficult to figure out the myriad owes and pays between you and others. You are splitting a meal with a bunch of friends. You went on a hiking trip with your roommates; everyone paid for different things and the final cost needed to be sorted out. We wanted to develop an app to keep track of all the daily transactions that need to be split up.
 ---
