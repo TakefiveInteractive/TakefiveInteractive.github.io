@@ -1,0 +1,13 @@
+---
+title: Board
+subtitle: Splitting your bills has never been easier.
+layout: default
+modal-id: 5
+date: 2016-02-20
+img: board.png
+thumbnail: board-thumbnail.png
+alt: image-alt
+project-date: February 2016
+github: https://github.com/TakefiveInteractive/Board
+description: Bla bla bla
+---
