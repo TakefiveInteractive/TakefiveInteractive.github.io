@@ -40,18 +40,20 @@ people:
 
 - name: Yu Wang
   pic: yu
-  position: iOS Developer, UI/UX
+  position: Front-end, iOS, UX
   social:
     - title: email
-      url: mailto:yu@takefiveinteractive.com
+      url: mailto:wangyu2165@gmail.com
+    - title: link
+      url: https://yu-w.me
     - title: github
-      url: https://github.com/yuwang17
+      url: https://github.com/yu-w
     - title: linkedin
       url: https://www.linkedin.com/in/wangyu2165
 
 - name: Suji Yan
   pic: ted
-  position: Frontend, Design
+  position: Front-end, Design
   social:
     - title: email
       url: mailto:ted@takefiveinteractive.com
@@ -64,7 +66,7 @@ people:
 
 - name: Yifei Teng
   pic: yifei
-  position: Backend, DevOps
+  position: Back-end, DevOps
   social:
     - title: github
       url: https://github.com/tengyifei
@@ -77,7 +79,7 @@ people:
 
 - name: Xiaohang Yu
   pic: lafickens
-  position: Backend, Infrastructure, Android
+  position: Back-end, Infrastructure, Android
   social:
     - title: email
       url: mailto:xiaohang@takefiveinteractive.com
@@ -90,7 +92,7 @@ people:
 
 - name: Zhongzhi Yu
   pic: c4phone
-  position: Backend, Android
+  position: Back-end, Android
   social:
     - title: email
       url: mailto:c4phone@takefiveinteractive.com
@@ -103,7 +105,7 @@ people:
 
 - name: Hong Lin
   pic: hong
-  position: Backend, Frontend
+  position: Back-end, Front-end
   social:
     - title: email
       url: mailto:plantvsbird@gmail.com
